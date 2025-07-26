@@ -23,8 +23,8 @@ Dieses Repository enthält zwei PHP-Demomodule, die den Unterschied zwischen **u
 
 | Datei | Beschreibung |
 |-------|--------------|
-| [`module_unsafe.php`](file-inclusion/examples/module_unsafe.php) | ❌ **Unsichere Dateieinbindung** – zeigt, wie direkte Benutzereingaben zu einer Local File Inclusion (LFI) Schwachstelle führen können. |
-| [`module_safe.php`](file-inclusion/examples/module_safe.php) | ✅ **Sichere Dateieinbindung** – nutzt eine Whitelist zur Validierung und schützt vor LFI-Angriffen. |
+| [`module_unsafe.php`](examples/module_unsafe.php) | ❌ **Unsichere Dateieinbindung** – zeigt, wie direkte Benutzereingaben zu einer Local File Inclusion (LFI) Schwachstelle führen können. |
+| [`module_safe.php`](examples/module_safe.php) | ✅ **Sichere Dateieinbindung** – nutzt eine Whitelist zur Validierung und schützt vor LFI-Angriffen. |
 
 ---
 
@@ -46,7 +46,7 @@ file-inclusion/
 
 | English  | Germany |
 |:---:|:---:|
-| [File Inclusion - English Version](file-inclusion/file-inclusion-en.md) | [File Inclusion - Deutsche Version](file-inclusion/file-inclusion-de.md) |
+| [File Inclusion - English Version](file-inclusion-en.md) | [File Inclusion - Deutsche Version](file-inclusion-en.md) |
 
 --- 
 
@@ -140,8 +140,8 @@ This repository contains two PHP demo modules that illustrate the difference bet
 
 | File | Description |
 |------|-------------|
-| [`module_unsafe.php`](file-inclusion/examples/module_unsafe.php) | ❌ **Unsafe file inclusion** – demonstrates how direct user input can lead to a Local File Inclusion (LFI) vulnerability. |
-| [`module_safe.php`](file-inclusion/examples/module_safe.php) | ✅ **Secure file inclusion** – uses a whitelist for validation and protects against LFI attacks. |
+| [`module_unsafe.php`](examples/module_safe.php) | ❌ **Unsafe file inclusion** – demonstrates how direct user input can lead to a Local File Inclusion (LFI) vulnerability. |
+| [`module_safe.php`](examples/module_safe.php) | ✅ **Secure file inclusion** – uses a whitelist for validation and protects against LFI attacks. |
 
 ---
 
@@ -163,7 +163,7 @@ file-inclusion/
 
 | English  | German |
 |:---:|:---:|
-| [File Inclusion - English Version](file-inclusion/file-inclusion-en.md) | [File Inclusion - German Version](file-inclusion/file-inclusion-de.md) |
+| [File Inclusion - English Version](file-inclusion-en.md) | [File Inclusion - German Version](file-inclusion-en.md) |
 
 ---
 
